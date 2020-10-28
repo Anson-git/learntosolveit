@@ -19,6 +19,7 @@ union header {
 
 typedef union header Header;
 	
+
 static unsigned maxalloc;	/* max number of units allocated */
 static Header	 base;	/* empty list to get started */
 static Header	*freep = NULL;	/*start of free list */
